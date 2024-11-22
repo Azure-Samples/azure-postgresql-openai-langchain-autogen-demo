@@ -10,7 +10,7 @@ This repository demonstrates how to build a **multi-agent AI system** using:
 - **Azure OpenAI GPT-4** for intelligent language understanding and generation of SQL queries in PostgreSQL.
 - **Azure Database for PostgreSQL** for data storage and querying.
 
-The application showcases a use case of a shipping company where agents manage shipment, customer and product informations. 
+The application showcases a shipping company where agents manage shipments, customers and product informations. The main goal of this repository is to illustrate how easy it is to have agents not just reading data but also acting on them. It extends the "Chat With Your Data" to "Chat and Act on Your Data".
 
 ## **Features**
 
