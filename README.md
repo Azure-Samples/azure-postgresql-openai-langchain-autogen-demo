@@ -74,14 +74,14 @@ files.upload()  # Upload your .env file
 
 #### **Usage - example of questions that you can ask:**
 
-##### ** Chat with your Data Examples **:
+##### **Chat with your Data Examples**:
 - Which products with names are currently tracking in transit?
 - Is Alice Johnson a Customer?
 
-##### ** Multi-agents to help develop on the database example question **:
+##### **Multi-agents to help develop on the database example question**:
 - I need to create a Stored Procedure to send shipments. It spans across shipments, shipment_items and shipment_tracking? Shipment_items might have multiple items and can vary. What stored procedure would you propose?
 
-##### ** Act on Your Data example **:
+##### **Act on Your Data example**:
 - Can you add Marc with email address marcr@contoso.com, phone number +1 123 456 7890 and address in 1 Main Street, Redmond?
-- Can you add Marc with email address marcre@contoso.com, phone number +1 123 456 7890? **Note: the information is incomplete and the agents should not perfom an operation **
+- Can you add Marc with email address marcre@contoso.com, phone number +1 123 456 7890? **Note: the information is incomplete and the agents should not perfom an operation**
 - Can you create a new shipment of 1 Laptop and 1 Smartphone to Marc and ensure shipment is updated to Departed Origin from the location in New York and towards Los Angeles date is today?
