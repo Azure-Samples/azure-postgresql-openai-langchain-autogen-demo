@@ -82,7 +82,7 @@ files.upload()  # Upload your .env file
 - Is Alice Johnson a Customer?
 
 ##### **Multi-agents to help develop on the database example question**:
-- I need to create a Stored Procedure to send shipments. It spans across shipments, shipment_items and shipment_tracking? Shipment_items might have multiple items and can vary. What stored procedure would you propose?
+- I would like to create a stored orodcedure to delete customers. What would be the best way to do this?
 
 ##### **Act on Your Data example**:
 - Can you add Marc with email address marcr@contoso.com, phone number +1 123 456 7890 and address in 1 Main Street, Redmond?
