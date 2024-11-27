@@ -45,9 +45,12 @@ git clone https://github.com/arno756/multi-ai-agents-with-postgresql.git
 cd multi-ai-agents-with-postgresql
 ```
 
+#### **Create Tables, Add Data and Create Stored Procedures**
+- Use the file **SQL_Queries.sql** to set your database.
+
 #### **Configure .env File**
 
-Create a .env file in the root directory to store sensitive credentials. Use the following template:
+Create a **.env** file in the root directory to store sensitive credentials. Use the following template:
 
 ```ini
 # Azure OpenAI
