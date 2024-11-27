@@ -10,15 +10,15 @@ This repository demonstrates how to build a **multi-agent AI system** using:
 - **Azure OpenAI GPT-4** for intelligent language understanding and generation of SQL queries in PostgreSQL.
 - **Azure Database for PostgreSQL** for data storage and querying.
 
-The application showcases a shipping company where agents manage shipments, customers and product informations. The main goal of this repository is to illustrate how easy it is to have agents not just reading data but also acting on them. It extends the "Chat With Your Data" to "Chat and Act on Your Data".
+The application showcases a shipping company where agents manage shipments, customers and product informations. The main goal of this repository is to illustrate how easy it is to have agents not just reading data but also acting on them. It extends the "Chat With Your Data" to "Chat and Act on Your Data". ** We welcome contributions to help make those agents more reliable and under guardrails. Feel free to contribute to more agents as well! **
 
 ## **Features**
 
 - 🌐 **Gradio UI**: User-friendly interface for natural language interactions.
 - 🤖 **AutoGen Multi-Agent System**: Agents collaborate to handle specific tasks:
   - **SchemaAgent**: Manages database schema retrieval and sharing.
-  - **ShipmentAgent**: Handles shipment-related queries and updates.
-  - **CRMAgent**: Manages customer and product-related data.
+  - **ShipmentAgent**: Handles shipment-related queries and updates. It can use the stored procedure *send_shipment* to create shipments.
+  - **CRMAgent**: Manages customer and product-related data. It can use the stored procedure *add_customer* to create new customers.
 - 🧠 **Azure OpenAI GPT-4**: Generates SQL queries and natural language responses.
 - 🛢️ **Azure PostgreSQL**: Stores shipment, customer, and product data.
 
@@ -74,7 +74,14 @@ files.upload()  # Upload your .env file
 
 #### **Usage - example of questions that you can ask:**
 
-- How many customers do we have?
-- What products are currently in transit?
-- Can you add Marc with email address marc@contoso.com, phone number +1 123 456 7890 and address in 1 Main Street, Seattle?
+##### ** Chat with your Data Examples **:
+- Which products with names are currently tracking in transit?
+- Is Alice Johnson a Customer?
+
+##### ** Multi-agents to help develop on the database example question **:
+- I need to create a Stored Procedure to send shipments. It spans across shipments, shipment_items and shipment_tracking? Shipment_items might have multiple items and can vary. What stored procedure would you propose?
+
+##### ** Act on Your Data example **:
+- Can you add Marc with email address marcr@contoso.com, phone number +1 123 456 7890 and address in 1 Main Street, Redmond?
+- Can you add Marc with email address marcre@contoso.com, phone number +1 123 456 7890? **Note: the information is incomplete and the agents should not perfom an operation **
 - Can you create a new shipment of 1 Laptop and 1 Smartphone to Marc and ensure shipment is updated to Departed Origin from the location in New York and towards Los Angeles date is today?
