@@ -33,27 +33,7 @@ The application showcases a shipping company where agents manage shipments, cust
 - Environment setup:
   - `python-dotenv` for environment variables.
   - PostgreSQL client library (`psycopg2` or similar).
-
-### **2. Recommended**
-- Use Jupyter Notebook in VS Code
-- Create a virtual environment to avoid any library conflicts:
-  1. Go to your root folder where you have cloned the files
-  2. Create a virtual environment named `.venv` in your current directory:
-     ```python
-     python -m venv .venv
-     ```
-  3. Activate:
-
-     a. **On Windows:**
-        ```bash
-        .venv\Scripts\activate
-        ```
-
-     b. **On Mac/Linux:**
-        ```bash
-        source .venv/bin/activate
-        ```
-
+     
 ---
 
 ### **2. Setup Instructions**
@@ -94,6 +74,30 @@ If you use Google Collab and you want to upload .env file, you will have to add 
 from google.colab import files
 files.upload()  # Upload your .env file
 ```
+
+#### Install libraries**
+- I recommend using Jupyter Notebook in VS Code
+- You should create a virtual environment to avoid any library conflicts:
+  1. Go to your root folder where you have cloned the files
+  2. Create a virtual environment named `.venv` in your current directory:
+     ```python
+     python -m venv .venv
+     ```
+  3. Activate:
+
+     a. **On Windows:**
+        ```bash
+        .venv\Scripts\activate
+        ```
+
+     b. **On Mac/Linux:**
+        ```bash
+        source .venv/bin/activate
+        ```
+  4. Install the Requirement File:
+     ```python
+     pip install -r requirements.txt
+     ```
 
 #### **Usage - example of questions that you can ask:**
 
