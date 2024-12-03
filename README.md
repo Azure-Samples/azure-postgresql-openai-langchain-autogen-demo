@@ -34,6 +34,26 @@ The application showcases a shipping company where agents manage shipments, cust
   - `python-dotenv` for environment variables.
   - PostgreSQL client library (`psycopg2` or similar).
 
+### **2. Recommended**
+- Use Jupyter Notebook in VS Code
+- Create a virtual environment to avoid any library conflicts:
+  1. Go to your root folder where you have cloned the files
+  2. Create a virtual environment named `.venv` in your current directory:
+     ```python
+     python -m venv .venv
+     ```
+  3. Activate:
+
+     a. **On Windows:**
+        ```bash
+        .venv\Scripts\activate
+        ```
+
+     b. **On Mac/Linux:**
+        ```bash
+        source .venv/bin/activate
+        ```
+
 ---
 
 ### **2. Setup Instructions**
