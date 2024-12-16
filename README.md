@@ -42,7 +42,7 @@ The application showcases a shipping company where agents manage shipments, cust
 
 ```bash
 git clone https://github.com/arno756/multi-ai-agents-with-postgresql.git
-cd multi-ai-agents-with-postgresql
+cd azure-postgresql-openai-langchain-autogen-demo
 ```
 
 #### **Create Tables, Add Data and Create Stored Procedures**
