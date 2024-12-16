@@ -41,7 +41,7 @@ The application showcases a shipping company where agents manage shipments, cust
 #### **Clone the Repository**
 
 ```bash
-git clone https://github.com/arno756/multi-ai-agents-with-postgresql.git
+git clone https://github.com/Azure-Samples/azure-postgresql-openai-langchain-autogen-demo.git
 cd azure-postgresql-openai-langchain-autogen-demo
 ```
 
