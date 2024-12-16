@@ -106,7 +106,7 @@ files.upload()  # Upload your .env file
 - Is Alice Johnson a Customer?
 
 ##### **Multi-agents to help develop on the database example question**:
-- I would like to create a stored Prodcedure to delete customers. What would be the best way to do this?
+- I would like to create a stored Procedure to delete customers. What would be the best way to do this?
 
 ##### **Act on Your Data example**:
 - Can you add Marc with email address marcr@contoso.com, phone number +1 123 456 7890 and address in 1 Main Street, Redmond?
