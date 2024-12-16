@@ -81,7 +81,7 @@ files.upload()  # Upload your .env file
   1. Go to your root folder where you have cloned the files
   2. Create a virtual environment named `.venv` in your current directory:
      ```python
-     python -m venv .venv
+     python3 -m venv .venv
      ```
   3. Activate:
 
