@@ -26,7 +26,7 @@ The application showcases a shipping company where agents manage shipments, cust
 
 ### **1. Prerequisites**
 
-- Python 3.9+
+- Python 3.9+ and <3.13
 - An Azure account with:
   - **Azure OpenAI Service** (GPT-4 deployed). **Note: I am looking to see how we can use other GPT models but they keep adding ``` sql  which returns an error**
   - **Azure Database for PostgreSQL** (configured with necessary tables).
