@@ -42,6 +42,8 @@ The application showcases a shipping company where agents manage shipments, cust
 
 ```bash
 git clone https://github.com/Azure-Samples/azure-postgresql-openai-langchain-autogen-demo.git
+```
+```bash
 cd azure-postgresql-openai-langchain-autogen-demo
 ```
 
@@ -75,7 +77,7 @@ from google.colab import files
 files.upload()  # Upload your .env file
 ```
 
-#### Install libraries **
+#### Install libraries
 - I recommend using Jupyter Notebook in VS Code
 - You should create a virtual environment to avoid any library conflicts:
   1. Go to your root folder where you have cloned the files
