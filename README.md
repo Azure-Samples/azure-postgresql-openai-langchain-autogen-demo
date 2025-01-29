@@ -8,7 +8,7 @@ This repository demonstrates how to build a **multi-agent AI system** using:
 - **LangChain** for natural language to SQL translation.
 - **AutoGen** for coordinating AI agents in collaborative workflows.
 - **Azure OpenAI GPT-4** for intelligent language understanding and generation of SQL queries in PostgreSQL.
-- **Azure Database for PostgreSQL** for data storage and querying.
+- **Azure SQL DB** for data storage and querying.
 
 The application showcases a shipping company where agents manage shipments, customers and product informations. The main goal of this repository is to illustrate how easy it is to have agents not just reading data but also acting on them. It extends the "Chat With Your Data" to "Chat and Act on Your Data". ** We welcome contributions to help make those agents more reliable and under guardrails. Feel free to contribute to more agents as well! **
 
@@ -20,7 +20,7 @@ The application showcases a shipping company where agents manage shipments, cust
   - **ShipmentAgent**: Handles shipment-related queries and updates. It can use the stored procedure *send_shipment* to create shipments.
   - **CRMAgent**: Manages customer and product-related data. It can use the stored procedure *add_customer* to create new customers.
 - 🧠 **Azure OpenAI GPT-4**: Generates SQL queries and natural language responses.
-- 🛢️ **Azure PostgreSQL**: Stores shipment, customer, and product data.
+- 🛢️ **Azure SQL DB**: Stores shipment, customer, and product data.
 
 ## **Getting Started**
 
@@ -29,7 +29,7 @@ The application showcases a shipping company where agents manage shipments, cust
 - Python 3.9+ and <3.13
 - An Azure account with:
   - **Azure OpenAI Service** (GPT-4 deployed). **Note: I am looking to see how we can use other GPT models but they keep adding ``` sql  which returns an error**
-  - **Azure Database for PostgreSQL** (configured with necessary tables).
+  - **Azure SQL DB** (configured with necessary tables).
 - Environment setup:
   - `python-dotenv` for environment variables.
   - PostgreSQL client library (`psycopg2` or similar).
@@ -60,12 +60,9 @@ AZURE_OPENAI_KEY=your_openai_api_key
 AZURE_OPENAI_ENDPOINT=https://your-openai-endpoint
 AZURE_OPENAI_DEPLOYMENT=gpt-4
 
-# PostgreSQL Database
-POSTGRES_USER=your_username
-POSTGRES_PASSWORD=your_password
-POSTGRES_HOST=your_postgresql_host
-POSTGRES_PORT=5432
-POSTGRES_DB=your_database_name
+# Azure SQL Database
+MSSQL="Driver={ODBC Driver 18 for SQL Server};Server=<server>.database.windows.net;Database=<database>;Connection Timeout=30;LongAsMax=yes;"
+
 ```
 
 Replace the placeholder values with your actual credentials. The Jupyter Notebook is configured with .env been located in the same root folder in my machine. 
