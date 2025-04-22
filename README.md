@@ -2,15 +2,8 @@
   <a href="https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4" target="_blank">
     <img
       src="https://raw.githubusercontent.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4/main/assets/banner.png"
-      alt="🚀 Leverage Autogen v0.4!"
+      alt="🚀 Leverage Autogen v0.4 in this new repo!"
       style="width:100%; max-height:300px;"
-    />
-  </a>
-  <br/>
-  <a href="https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4/releases/latest" target="_blank">
-    <img
-      src="https://img.shields.io/github/v/release/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4?style=for-the-badge"
-      alt="Latest Release"
     />
   </a>
 </p>
