@@ -1,5 +1,7 @@
-> 💜 **Important:** This is the **latest and recommended** repository for using **PostgreSQL with AutoGen 0.4**.  
-> 👉 [Click here to explore the repo](https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4.git)
+<p align="center">
+  <strong>💜 Important:</strong> This is the <strong>latest and recommended</strong> repository for using <strong>PostgreSQL with AutoGen 0.4</strong>.<br>
+  👉 <a href="https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4.git">Click here to explore the repo</a>
+</p>
 
 # **Multi-Agent AI System with LangChain, AutoGen, Azure OpenAI GPT-4, and Azure PostgreSQL**
 
