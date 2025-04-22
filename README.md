@@ -1,12 +1,8 @@
-<p align="center">
-  <a href="https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4" target="_blank">
-    <img
-      src="https://raw.githubusercontent.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4/main/assets/banner.png"
-      alt="🚀 Leverage Autogen v0.4 in this new repo!"
-      style="width:100%; max-height:300px;"
-    />
-  </a>
-</p>
+<a href="https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4.git" target="_blank">
+  <div align="center">
+    <img src="https://img.shields.io/badge/Explore%20Multi-Agent%20PostgreSQL%20Demo-Click%20Here-purple?style=for-the-badge" alt="Multi-Agent PostgreSQL Demo">
+  </div>
+</a>
 
 # **Multi-Agent AI System with LangChain, AutoGen, Azure OpenAI GPT-4, and Azure PostgreSQL**
 
