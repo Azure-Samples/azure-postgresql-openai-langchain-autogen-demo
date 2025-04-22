@@ -1,4 +1,3 @@
-<!-- your full‑width banner: -->
 <p align="center">
   <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4" target="_blank">
     <img
@@ -7,10 +6,14 @@
       style="width:100%; max-height:300px;"
     />
   </a>
+  <br/>
+  <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4/releases/latest" target="_blank">
+    <img
+      src="https://img.shields.io/github/v/release/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4?style=for-the-badge"
+      alt="Latest Release"
+    />
+  </a>
 </p>
-
-<!-- then, right below it, your Markdown badge: -->
-[![Latest Autogen v](https://img.shields.io/github/v/release/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4?style=for-the-badge)](https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4/releases/latest)
 
 # **Multi-Agent AI System with LangChain, AutoGen, Azure OpenAI GPT-4, and Azure PostgreSQL**
 
