@@ -1,8 +1,9 @@
 <p align="center">
-  <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4">
+  <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4" target="_blank">
     <img
-      src="https://img.shields.io/badge/Autogen-v0.4-00ADD8?style=for-the-badge&logo=github"
-      alt="Use Autogen v0.4"
+      src="https://raw.githubusercontent.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4/main/assets/banner.png"
+      alt="🚀 Leverage Autogen v0.4!"
+      style="width:100%; max-height:300px;"
     />
   </a>
 </p>
