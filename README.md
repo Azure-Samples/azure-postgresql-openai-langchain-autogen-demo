@@ -1,4 +1,12 @@
-> **🚀 Update:** This repo now leverages the latest [Autogen v0.4](https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4)  
+<p align="center">
+  <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4">
+    <img
+      src="assets/autogen-banner.png"
+      alt="Leverage the latest Autogen v0.4"
+      width="800"
+    />
+  </a>
+</p>
 
 # **Multi-Agent AI System with LangChain, AutoGen, Azure OpenAI GPT-4, and Azure PostgreSQL**
 
