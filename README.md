@@ -7,7 +7,8 @@
     />
   </a>
   <br/>
-  <a href="https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4/releases/latest" target="_blank">
+  <!-- Replace with Option 1 or Option 2 badge below: -->
+  <a href="[https://github.com/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4/releases/latest](https://github.com/Azure-Samples/MultiAgent_Azure_PostgreSQL_AutoGen0.4.git)" target="_blank">
     <img
       src="https://img.shields.io/github/v/release/Azure-Samples/MultiAgent_Azure-PostgreSQL-AutoGen0.4?style=for-the-badge"
       alt="Latest Release"
