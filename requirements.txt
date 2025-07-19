@@ -74,7 +74,7 @@ psutil==6.1.1
 psycopg2==2.9.10
 ptyprocess==0.7.0
 pure_eval==0.2.3
-pyautogen==0.6.0
+ag2==0.6.0
 pydantic==2.9.2
 pydantic-settings==2.7.0
 pydantic_core==2.23.4
